@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>170726_Objekte_WGS84.kml</name>
+	<Schema name="170726_Objekte_WGS84" id="S_170726_Objekte_WGS84_ISSS">
+		<SimpleField type="int" name="Nr_"><displayName>&lt;b&gt;Nr.&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Latitude"><displayName>&lt;b&gt;Latitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Longitude"><displayName>&lt;b&gt;Longitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Target"><displayName>&lt;b&gt;Target&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_placemark_circle9">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_placemark_circle9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Nr.</b></td><td>$[170726_Objekte_WGS84/Nr_]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[170726_Objekte_WGS84/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[170726_Objekte_WGS84/Longitude]</td></tr>
+  <tr><td><b>Target</b></td><td>$[170726_Objekte_WGS84/Target]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Nr.</b></td><td>$[170726_Objekte_WGS84/Nr_]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[170726_Objekte_WGS84/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[170726_Objekte_WGS84/Longitude]</td></tr>
+  <tr><td><b>Target</b></td><td>$[170726_Objekte_WGS84/Target]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight9">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Nr.</b></td><td>$[170726_Objekte_WGS84/Nr_]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[170726_Objekte_WGS84/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[170726_Objekte_WGS84/Longitude]</td></tr>
+  <tr><td><b>Target</b></td><td>$[170726_Objekte_WGS84/Target]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Nr.</b></td><td>$[170726_Objekte_WGS84/Nr_]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[170726_Objekte_WGS84/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[170726_Objekte_WGS84/Longitude]</td></tr>
+  <tr><td><b>Target</b></td><td>$[170726_Objekte_WGS84/Target]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>170726_Objekte_WGS84</name>
+		<open>1</open>
+		<Placemark>
+			<name>British aerial 500lb GP (general purpose) bomb</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">1</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4922</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;16.7030</SimpleData>
+					<SimpleData name="Target">British aerial 500lb GP (general purpose) bomb</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08797305555553,52.31347005555558,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German incendiary bomb Flam C-250</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">2</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.3961</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.8260</SimpleData>
+					<SimpleData name="Target">German incendiary bomb Flam C-250</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Point>
+				<coordinates>14.08828500000001,52.31344336111109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>British aerial 500lb MC (medium capacity) bomb</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">3</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4188</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.7816</SimpleData>
+					<SimpleData name="Target">British aerial 500lb MC (medium capacity) bomb</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08882822222221,52.31344966666665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian WW2 rocket M-31UK</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">4</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.6894</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.2020</SimpleData>
+					<SimpleData name="Target">Russian WW2 rocket M-31UK</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08838944444442,52.31352483333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 215mm shell</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">6</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4633</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.2939</SimpleData>
+					<SimpleData name="Target">German 215mm shell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08869275000001,52.31346202777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian anti-tank mine TM-62M (1)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">7</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.5489</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.4850</SimpleData>
+					<SimpleData name="Target">Russian anti-tank mine TM-62M (1)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08819027777778,52.31348580555557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian anti-tank mine TM-62M (2)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">8</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.5965</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.5524</SimpleData>
+					<SimpleData name="Target">Russian anti-tank mine TM-62M (2)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08820899999999,52.31349902777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian anti-tank mine TM-62M (3)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">9</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.6842</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.7041</SimpleData>
+					<SimpleData name="Target">Russian anti-tank mine TM-62M (3)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08825113888889,52.3135233888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian anti-tank mine TM-62M (4)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">10</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.6209</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.7632</SimpleData>
+					<SimpleData name="Target">Russian anti-tank mine TM-62M (4)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08826755555556,52.31350580555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian anti-personnel mine OZM-72</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">11</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4839</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.6922</SimpleData>
+					<SimpleData name="Target">Russian anti-personnel mine OZM-72</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08824783333334,52.31346775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian rocket-propelled grenade RPG-2</name>
+			<styleUrl>#msn_placemark_circle9</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">12</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.7247</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.1083</SimpleData>
+					<SimpleData name="Target">Russian rocket-propelled grenade RPG-2</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08864119444447,52.31353463888887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian rocket-propelled grenade RPG-7</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">13</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4032</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.5909</SimpleData>
+					<SimpleData name="Target">Russian rocket-propelled grenade RPG-7</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08821969444444,52.31344533333332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian rocket-propelled grenade RPG-9/15</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">14</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.7459</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.7778</SimpleData>
+					<SimpleData name="Target">Russian rocket-propelled grenade RPG-9/15</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08882716666669,52.31354052777776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian rocket-propelled grenade RPG-18</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">15</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.5797</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.0044</SimpleData>
+					<SimpleData name="Target">Russian rocket-propelled grenade RPG-18</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08833455555555,52.31349436111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German WW2 rocket-propelled grenade Type 100</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">16</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.7258</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.5772</SimpleData>
+					<SimpleData name="Target">German WW2 rocket-propelled grenade Type 100</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08849366666667,52.31353494444441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German WW2 rocket-propelled grenade warhead Type 100 (1)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">17</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.5597</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.5563</SimpleData>
+					<SimpleData name="Target">German WW2 rocket-propelled grenade warhead Type 100 (1)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08848786111112,52.31348880555554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German WW2 rocket-propelled grenade warhead Type 100 (2)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">18</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.7670</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.9103</SimpleData>
+					<SimpleData name="Target">German WW2 rocket-propelled grenade warhead Type 100 (2)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08858619444443,52.31354638888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German WW2 rocket-propelled grenade launcher Type 100 (1)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">19</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4977</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.0828</SimpleData>
+					<SimpleData name="Target">German WW2 rocket-propelled grenade launcher Type 100 (1)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08863411111111,52.31347158333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German WW2 7.62cm HE grenade</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">20</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.3634</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.3631</SimpleData>
+					<SimpleData name="Target">German WW2 7.62cm HE grenade</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08843419444445,52.31343427777781,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German WW2 4.5cm armor-piercing shell</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">21</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4942</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.4009</SimpleData>
+					<SimpleData name="Target">German WW2 4.5cm armor-piercing shell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08844469444444,52.31347061111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian fragmentation hand grenade F1</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">22</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.6322</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.4462</SimpleData>
+					<SimpleData name="Target">Russian fragmentation hand grenade F1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08817949999999,52.31350894444446,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian hand grenade RGD-5</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">23</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.5740</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.8293</SimpleData>
+					<SimpleData name="Target">Russian hand grenade RGD-5</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08884147222223,52.31349277777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German WW2 steel helmet (rusted)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">24</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.7139</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.5745</SimpleData>
+					<SimpleData name="Target">German WW2 steel helmet (rusted)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08821513888891,52.3135316388889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German WW2 aerial bomb SD 70</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">26</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.5787</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;20.5168</SimpleData>
+					<SimpleData name="Target">German WW2 aerial bomb SD 70</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08903244444446,52.31349408333331,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 5cm tank shell (1)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">27</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.3833</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.5845</SimpleData>
+					<SimpleData name="Target">German 5cm tank shell (1)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.0887734722222,52.31343980555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 5cm tank shell (2)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">28</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.6313</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.9717</SimpleData>
+					<SimpleData name="Target">German 5cm tank shell (2)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08888102777778,52.31350869444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 4.5cm tank shell (1)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">29</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.6437</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.0395</SimpleData>
+					<SimpleData name="Target">German 4.5cm tank shell (1)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08862208333333,52.31351213888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 4.5cm tank shell (2)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">30</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4770</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.5652</SimpleData>
+					<SimpleData name="Target">German 4.5cm tank shell (2)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08876811111112,52.31346583333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 4.5cm tank shell (3)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">31</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4149</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.6570</SimpleData>
+					<SimpleData name="Target">German 4.5cm tank shell (3)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08851583333334,52.3134485833333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 7.5cm HE shell (1)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">32</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.7258</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.3632</SimpleData>
+					<SimpleData name="Target">German 7.5cm HE shell (1)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08843422222223,52.31353494444441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 7.5cm HE shell (2)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">33</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.7021</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.3051</SimpleData>
+					<SimpleData name="Target">German 7.5cm HE shell (2)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08841808333332,52.31352836111113,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German WW2 rocket-propelled grenade launcher Type 100 (2)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">34</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4147</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.1122</SimpleData>
+					<SimpleData name="Target">German WW2 rocket-propelled grenade launcher Type 100 (2)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08864227777777,52.31344852777779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 8.8cm tank shell (1)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">35</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.5223</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.4360</SimpleData>
+					<SimpleData name="Target">German 8.8cm tank shell (1)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08873222222222,52.31347841666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 8.8cm tank shell (2)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">36</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.3392</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.9788</SimpleData>
+					<SimpleData name="Target">German 8.8cm tank shell (2)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08888300000001,52.31342755555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 15cm HE shell</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">38</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.6054</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.8866</SimpleData>
+					<SimpleData name="Target">German 15cm HE shell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08857961111111,52.31350149999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Soviet 125mm high-explosive anti-tank (HEAT) warhead</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">39</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.7142</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.3858</SimpleData>
+					<SimpleData name="Target">Soviet 125mm high-explosive anti-tank (HEAT) warhead</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08871827777778,52.31353172222224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 23mm tank shell</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">40</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.7295</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.7946</SimpleData>
+					<SimpleData name="Target">German 23mm tank shell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08827627777778,52.31353597222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shell splinter (1)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">41</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.6710</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.8189</SimpleData>
+					<SimpleData name="Target">Shell splinter (1)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08883858333334,52.3135197222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shell splinter (2)</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">42</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.7647</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.0218</SimpleData>
+					<SimpleData name="Target">Shell splinter (2)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08833938888888,52.31354575000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tail unit of a German grenade</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">43</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.5310</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.6853</SimpleData>
+					<SimpleData name="Target">Tail unit of a German grenade</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08852369444442,52.31348083333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German 32cm rocket warhead</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">44</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.3697</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.7717</SimpleData>
+					<SimpleData name="Target">German 32cm rocket warhead</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08854769444444,52.31343602777779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>German WW2 steel helmet</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">45</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.6413</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;17.6397</SimpleData>
+					<SimpleData name="Target">German WW2 steel helmet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08823325,52.3135114722222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>120mm HE shell</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">48</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.4678</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;18.2081</SimpleData>
+					<SimpleData name="Target">120mm HE shell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08839113888888,52.31346327777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Piece of 80mm anti-tank HE shell</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">50</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.6279</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.6204</SimpleData>
+					<SimpleData name="Target">Piece of 80mm anti-tank HE shell</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08878344444445,52.31350774999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian belt for 7.62mm ammunition</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">55</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.3440</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.4398</SimpleData>
+					<SimpleData name="Target">Russian belt for 7.62mm ammunition</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.08873327777778,52.31342888888891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Russian belt for 14.5mm ammunition</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_170726_Objekte_WGS84_ISSS">
+					<SimpleData name="Nr_">56</SimpleData>
+					<SimpleData name="Latitude">52°18&apos;48.5933</SimpleData>
+					<SimpleData name="Longitude">14°05&apos;19.2808</SimpleData>
+					<SimpleData name="Target">Russian belt for 14.5mm ammunition</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>14.0886891111111,52.31349813888889,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
